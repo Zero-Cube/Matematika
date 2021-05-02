@@ -34,7 +34,7 @@ def XV():
 def YX():
     print(f'Yv = (Xv) * a² - (Xv) * b + c')
     print(f"Yv = ({Xv} * {a}²) - ({Xv} * {b}) + {c}")
-    print(f"Yv= ({xvdva}) - (-{-b * Xv}) + ({+c})")
+    print(f"Yv= ({xvdva}) - ({-b * Xv}) + ({+c})")
     print("Yv = ", xvdva - -bxv + c)
 
 XV(),YX()
